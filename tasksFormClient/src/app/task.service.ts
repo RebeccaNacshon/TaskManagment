@@ -29,7 +29,7 @@ export class TaskService {
   private getHttpOptions() {
     const headers = new HttpHeaders({
       'Content-Type': 'application/json',
-      'Programmer-Name': 'Rebecca'
+      'Developer-Name': 'Rebecca'
     });
     return { headers: headers };
   }
