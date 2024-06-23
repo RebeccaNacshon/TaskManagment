@@ -1,0 +1,27 @@
+.form-field {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 1em;
+  
+  }
+  input{
+    text-align: right;
+    direction: rtl;
+  }
+  
+  mat-form-field {
+    width: 100%;
+    text-align: right;
+    direction: rtl;
+  }
+
+  mat-card{
+    margin:150px;
+  }
+  button{
+    direction: rtl;
+    text-align: center;
+    margin:auto;
+    
+  }
+  

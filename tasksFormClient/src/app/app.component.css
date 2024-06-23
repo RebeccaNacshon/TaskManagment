@@ -1,0 +1,18 @@
+nav {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1em;
+    background-color: rgb(45, 15, 73);
+    padding: 50px;;
+
+  }
+  
+  a {
+    margin: 0 1em;
+    font-size: 45px;
+    color: white;
+  }
+  mat-button{
+    color:white;
+  }
+  

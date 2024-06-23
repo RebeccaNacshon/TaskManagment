@@ -1,0 +1,20 @@
+<mat-card>
+    <form [formGroup]="taskForm" (ngSubmit)="onSubmit()">
+      <mat-form-field appearance="fill">
+        <mat-label>כותרת</mat-label>
+        <input matInput id="title" formControlName="title">
+      </mat-form-field>
+
+      <mat-form-field appearance="fill">
+        <mat-label>תיאור</mat-label>
+        <input matInput id="description" formControlName="description">
+      </mat-form-field>
+
+      <mat-form-field appearance="fill">
+        <label>תאריך לביצוע</label>
+        <input matInput id="dueDate" formControlName="dueDate" type="date">
+      </mat-form-field>
+
+      <button mat-raised-button color="primary" type="submit" [disabled]="taskForm.invalid">הוסף משימה</button>
+    </form>
+  </mat-card>
