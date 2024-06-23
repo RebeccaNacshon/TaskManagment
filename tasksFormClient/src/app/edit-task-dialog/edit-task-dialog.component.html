@@ -1,21 +1,21 @@
-<h1 mat-dialog-title>Edit Task</h1>
+<h1 mat-dialog-title>עריכת משימה</h1>
 <div mat-dialog-content>
   <form>
     <div mat-form-field class="full-width">
-      <div mat-label>Title</div>
+      <div mat-label>כותרת</div>
       <input matInput [(ngModel)]="task.title" name="title">
     </div>
     <div mat-form-field class="full-width">
-      <div mat-label>Description</div>
+      <div mat-label>תיאור</div>
       <textarea matInput [(ngModel)]="task.description" name="description"></textarea>
     </div>
     <div mat-form-field class="full-width">
-      <div mat-label>Due Date</div>
+      <div mat-label>תאריך ביצוע</div>
       <input matInput [(ngModel)]="task.dueDate" name="dueDate" type="date">
     </div>
   </form>
 </div>
 <div mat-dialog-actions>
-  <button mat-button (click)="onCancel()">Cancel</button>
-  <button mat-button color="primary" (click)="onSave()">Save</button>
+  <button mat-button (click)="onCancel()">בטל</button>
+  <button mat-button color="primary" (click)="onSave()">שמור</button>
 </div>
